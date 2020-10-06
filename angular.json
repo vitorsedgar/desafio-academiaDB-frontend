@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -88,6 +89,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "desafio-academiaBD-frontend"
+    }
+  },
+  "defaultProject": "desafio-academiaBD-frontend",
+  "cli": {
+    "analytics": "5b9b167c-d2bf-4ceb-abd1-1c4789242a80"
+  }
 }
