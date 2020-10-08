@@ -1,14 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AtendimentoComponent } from './atendimento/atendimento.component';
 
 const routes: Routes = [
-  {
-    path: 'helloWorld',
-    loadChildren: () =>
-      import('./hello-world/hello-world.component').then(
-        (m) => m.HelloWorldComponent
-      ),
-  },
+  { path: 'atendimento', component: AtendimentoComponent },
 ];
 
 @NgModule({
